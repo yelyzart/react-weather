@@ -1,0 +1,12 @@
+.enter-city {
+  border: 1px solid grey;
+  border-radius: 25px;
+  padding: 7px 15px;
+  max-width: 80%;
+  background-color: #eeeeee;
+}
+.search-city {
+  border: none;
+  padding: 0;
+  background-color: #edf1fe;
+}

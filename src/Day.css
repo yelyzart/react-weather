@@ -1,0 +1,12 @@
+.day,
+.temp {
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+.icon {
+  margin-bottom: 10px;
+}
+.info {
+  font-size: 20px;
+  color: #939aa9;
+}

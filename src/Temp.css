@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+sup {
+  font-size: 20px;
+  vertical-align: text-top;
+}
+.temperature {
+  font-size: 80px;
+  color: #5a6275;
+  line-height: 1.2em;
+}
+.celsius {
+  color: #5a6275;
+  cursor: default;
+  text-decoration: none;
+}
+.celsius:hover {
+  color: none;
+}
