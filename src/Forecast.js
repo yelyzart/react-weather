@@ -8,7 +8,6 @@ export default function Forecast(props) {
   let [forecast, setForecast] = useState(null);
 
   function displayForecast(response) {
-    console.log(response);
     setForecast(response.data.daily);
     setLoaded(true);
   }
@@ -20,12 +19,11 @@ export default function Forecast(props) {
   if (loaded) {
     return (
       <div className="Forecast">
-        {" "}
-        {forecast.map(function (forecastDaily, index) {
+        {forecast.map(function (dailyForecast, index) {
           if (index < 5) {
             return (
               <div key={index}>
-                <Day data={forecastDaily} />
+                <Day info={dailyForecast} />
               </div>
             );
           } else {
