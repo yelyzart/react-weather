@@ -7,7 +7,7 @@ export default function Current(props) {
   return (
     <div className="Current">
       <h1>
-        <img src={props.data.icon} alt="" id="weather-icon" />
+        <img src={props.data.icon} alt="" className="weather-icon" />
         <Temp celsius={props.data.temperature} />
       </h1>
       <h2>

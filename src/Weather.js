@@ -44,7 +44,7 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <div className="row">
-          <div className="col-6">
+          <div className="col-6 firstColumn ">
             <form onSubmit={citySubmit}>
               <input
                 className="search enter-city"
@@ -58,7 +58,7 @@ export default function Weather(props) {
             </form>
             <Current data={element} />
           </div>
-          <div className="col-6">
+          <div className="col-6 secondColumn">
             <Forecast coordinates={element.coordinates} />
           </div>
         </div>
