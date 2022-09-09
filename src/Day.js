@@ -17,7 +17,7 @@ export default function Day(props) {
         <div className="col-3 day">{whatDay()}</div>
         <div className="col-3 icon">
           <img
-            src={`http://openweathermap.org/img/wn/${props.info.weather[0].icon}@2x.png`}
+            src={`http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}
             alt="pic"
             className="forecast-icon"
           />
